@@ -1,3 +1,4 @@
+import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 import { classNames } from 'shared/lib/classNames/classNames'
 import { Button, ThemeButton } from 'shared/ui/Button/Button'
@@ -7,7 +8,7 @@ interface LangSwithcerProps {
   className?: string
 }
 
-export const LangSwithcer: React.FC<LangSwithcerProps> = (props) => {
+export const LangSwithcer: FC<LangSwithcerProps> = (props) => {
   const { className } = props
   const { t, i18n } = useTranslation()
 
@@ -19,7 +20,8 @@ export const LangSwithcer: React.FC<LangSwithcerProps> = (props) => {
     <Button
       className={classNames(cls.langSwithcer, {}, [className])}
       theme={ThemeButton.CLEAR}
-      onClick={toggle}>
+      onClick={toggle}
+    >
       {t('Lang')}
     </Button>
   )
