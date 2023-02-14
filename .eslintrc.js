@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: ['plugin:react/recommended', 'airbnb', 'plugin:react/jsx-runtime'],
   parser: '@typescript-eslint/parser',
@@ -46,6 +47,7 @@ module.exports = {
       },
     ],
     'i18next/no-literal-string': [2, { markupOnly: true }],
+    'max-len': [2, { ignoreComments: true }],
   },
   globals: {
     __IS_DEV__: true,
