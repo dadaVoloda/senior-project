@@ -12,7 +12,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'i18next'],
   rules: {
     'import/no-unresolved': 'off',
     'react/function-component-definition': 'off',
@@ -45,6 +45,7 @@ module.exports = {
         functions: 'never',
       },
     ],
+    'i18next/no-literal-string': [2, { markupOnly: true }],
   },
   globals: {
     __IS_DEV__: true,
