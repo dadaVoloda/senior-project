@@ -27,6 +27,8 @@ module.exports = {
     'arrow-body-style': 'off',
     'implicit-arrow-linebreak': 'off',
     'operator-linebreak': 'off',
+    'react/self-closing-comp': 'off',
+    'react/jsx-wrap-multilines': 'off',
     'no-unused-vars': 'warn',
     'react/jsx-props-no-spreading': 'warn',
     'import/no-extraneous-dependencies': 'warn',
