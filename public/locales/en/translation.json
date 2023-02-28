@@ -1,4 +1,8 @@
 {
   "Lang": "Ru",
-  "Page not found": "Page not found"
+  "Page not found": "Page not found",
+  "Happened unexpected error": "Happened unexpected error",
+  "Refresh the page": "Refresh the page",
+  "throw error": "throw error",
+  "toggle": "toggle"
 }
