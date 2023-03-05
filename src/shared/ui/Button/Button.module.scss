@@ -9,3 +9,10 @@
   border: none;
   outline: transparent;
 }
+
+.outline {
+  padding: 8px 16px;
+  color: var(--primary-color);
+  background: transparent;
+  border: 1px solid var(--primary-color);
+}
