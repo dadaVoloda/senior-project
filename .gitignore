@@ -1,4 +1,6 @@
+/.vscode
 /build
 /node_modules
 /storybook-static
-/.vscode
+/.loki/report.html
+/.loki/report.json
